@@ -9,6 +9,7 @@ import sys
 import time
 
 import prometheus_client
+import prometheus_client.core
 
 
 class EthtoolCollector(object):
